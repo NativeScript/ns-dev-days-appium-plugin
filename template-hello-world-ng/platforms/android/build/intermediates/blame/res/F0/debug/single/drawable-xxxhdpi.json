@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/progressuser/git/ns-dev-days/template-hello-world-ng/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxxhdpi/icon.png",
+        "source": "/Users/progressuser/git/ns-dev-days/template-hello-world-ng/platforms/android/src/main/res/drawable-xxxhdpi/icon.png"
+    },
+    {
+        "merged": "/Users/progressuser/git/ns-dev-days/template-hello-world-ng/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxxhdpi/logo.png",
+        "source": "/Users/progressuser/git/ns-dev-days/template-hello-world-ng/platforms/android/src/main/res/drawable-xxxhdpi/logo.png"
+    },
+    {
+        "merged": "/Users/progressuser/git/ns-dev-days/template-hello-world-ng/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxxhdpi/background.png",
+        "source": "/Users/progressuser/git/ns-dev-days/template-hello-world-ng/platforms/android/src/main/res/drawable-xxxhdpi/background.png"
+    }
+]

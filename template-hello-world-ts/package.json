@@ -1,0 +1,41 @@
+{
+  "description": "NativeScript Application",
+  "license": "SEE LICENSE IN <your-license-filename>",
+  "readme": "NativeScript Application",
+  "repository": "<fill-your-repository-here>",
+  "nativescript": {
+    "id": "org.nativescript.templatehelloworldts",
+    "tns-ios": {
+      "version": "3.2.0"
+    },
+    "tns-android": {
+      "version": "3.2.0"
+    }
+  },
+  "dependencies": {
+    "nativescript-theme-core": "~1.0.2",
+    "tns-core-modules": "~3.2.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.0.2",
+    "@types/mocha": "^2.2.41",
+    "@types/node": "^7.0.5",
+    "babel-traverse": "6.26.0",
+    "babel-types": "6.26.0",
+    "babylon": "6.18.0",
+    "chai": "~4.1.1",
+    "chai-as-promised": "~7.1.1",
+    "lazy": "1.0.11",
+    "mocha": "~3.5.0",
+    "mocha-junit-reporter": "^1.13.0",
+    "mocha-multi": "^0.11.0",
+    "nativescript-dev-appium": "file:///Users/progressuser/git/nativescript-dev-appium/nativescript-dev-appium-2.1.1.tgz",
+    "nativescript-dev-typescript": "~0.5.0",
+    "tslib": "^1.7.1",
+    "typescript": "~2.2.1"
+  },
+  "scripts": {
+    "e2e": "tsc -p e2e && mocha --opts ./e2e/config/mocha.opts",
+    "compile-tests": "tsc -p e2e --watch"
+  }
+}

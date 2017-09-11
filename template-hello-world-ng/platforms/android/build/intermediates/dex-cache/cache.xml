@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/progressuser/git/ns-dev-days/template-hello-world-ng/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/Users/progressuser/git/ns-dev-days/template-hello-world-ng/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-core-ui-26.0.0-alpha1_11f5c5946a1c789022af4f2664cdc38a99281689.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/progressuser/git/ns-dev-days/template-hello-world-ng/platforms/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/Users/progressuser/git/ns-dev-days/template-hello-world-ng/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-media-compat-26.0.0-alpha1_c8238bed42a37bc3ad6e57388a556a70c3116b7e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/progressuser/git/ns-dev-days/template-hello-world-ng/platforms/android/build/intermediates/exploded-aar/com.android.support/transition/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="/Users/progressuser/git/ns-dev-days/template-hello-world-ng/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-transition-26.0.0-alpha1_3859cd213f06058d02a8e1b5bd30a031d46553c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/progressuser/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/Users/progressuser/git/ns-dev-days/template-hello-world-ng/platforms/android/build/intermediates/pre-dexed/F0/debug/support-annotations-26.0.0-alpha1_3bc0c32aca2a047595e94600ca202eb05a38cf5f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/progressuser/git/ns-dev-days/template-hello-world-ng/platforms/android/build/intermediates/exploded-aar/templatehelloworldng/runtime/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="eb6078500d1af5e7b663871706674405c57292a3">
+        <dex dex="/Users/progressuser/git/ns-dev-days/template-hello-world-ng/platforms/android/build/intermediates/pre-dexed/F0/debug/templatehelloworldng-runtime-unspecified_0df1ba43cd9189170a3160f27a66a7a4bccad712.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/progressuser/git/ns-dev-days/template-hello-world-ng/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/Users/progressuser/git/ns-dev-days/template-hello-world-ng/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-appcompat-v7-26.0.0-alpha1_da91ef88ad0a7ec2d2d4f602346e4d83d0c84ba4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/progressuser/git/ns-dev-days/template-hello-world-ng/platforms/android/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="/Users/progressuser/git/ns-dev-days/template-hello-world-ng/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-recyclerview-v7-26.0.0-alpha1_e1c3c81a731ddc7ba8fa4257fc37ddee88dc8264.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/progressuser/git/ns-dev-days/template-hello-world-ng/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/progressuser/git/ns-dev-days/template-hello-world-ng/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-v4-26.0.0-alpha1_45342eace2aa0a75e1ad0c33ca35612e920a72c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/progressuser/git/ns-dev-days/template-hello-world-ng/platforms/android/build/intermediates/exploded-aar/templatehelloworldng/runtime/unspecified/jars/libs/binding-generator.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a3e74f5f1ebe12c7cfa6591158ef298c95a5275f">
+        <dex dex="/Users/progressuser/git/ns-dev-days/template-hello-world-ng/platforms/android/build/intermediates/pre-dexed/F0/debug/binding-generator_2dc8efd0adef7177d88f71531e92ddfae6e78da5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/progressuser/git/ns-dev-days/template-hello-world-ng/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/Users/progressuser/git/ns-dev-days/template-hello-world-ng/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-core-utils-26.0.0-alpha1_7fd43119dbfd5cad90592932f6e8988e47bb15ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/progressuser/git/ns-dev-days/template-hello-world-ng/platforms/android/build/intermediates/exploded-aar/com.android.support/support-fragment/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/Users/progressuser/git/ns-dev-days/template-hello-world-ng/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-fragment-26.0.0-alpha1_a9ad8859cdd373dd8f61a2a2ae6e9b397ede4314.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/progressuser/git/ns-dev-days/template-hello-world-ng/platforms/android/build/intermediates/exploded-aar/widgets-release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ada15dd7aad50793dcd67b281a8eb06e80007500">
+        <dex dex="/Users/progressuser/git/ns-dev-days/template-hello-world-ng/platforms/android/build/intermediates/pre-dexed/F0/debug/intermediates-exploded-aar-widgets-release_8a115bc043fcf1c0ccc3d8991df4a0a0b574fbce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/progressuser/git/ns-dev-days/template-hello-world-ng/platforms/android/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="/Users/progressuser/git/ns-dev-days/template-hello-world-ng/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-design-26.0.0-alpha1_f91a34c96394f125992155c979118dc89aca168c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/progressuser/git/ns-dev-days/template-hello-world-ng/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/Users/progressuser/git/ns-dev-days/template-hello-world-ng/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-compat-26.0.0-alpha1_b5f4e7530c40357ff8417f3432f2f783a5cd7c42.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/progressuser/git/ns-dev-days/template-hello-world-ng/platforms/android/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/Users/progressuser/git/ns-dev-days/template-hello-world-ng/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-animated-vector-drawable-26.0.0-alpha1_26c1042a00c7e87c787b54d250bd2e1a225d2eb0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/progressuser/git/ns-dev-days/template-hello-world-ng/platforms/android/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/Users/progressuser/git/ns-dev-days/template-hello-world-ng/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-vector-drawable-26.0.0-alpha1_7e396aa015d52eb7af9982bfadf05fc3e4ff89fa.jar" />
+    </item>
+
+</items>

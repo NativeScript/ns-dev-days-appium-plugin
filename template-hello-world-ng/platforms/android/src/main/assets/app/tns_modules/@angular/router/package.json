@@ -1,0 +1,96 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@angular/router@~4.2.0",
+        "scope": "@angular",
+        "escapedName": "@angular%2frouter",
+        "name": "@angular/router",
+        "rawSpec": "~4.2.0",
+        "spec": ">=4.2.0 <4.3.0",
+        "type": "range"
+      },
+      "/Users/progressuser/git/ns-dev-days/template-hello-world-ng/node_modules/tns-template-hello-world-ng"
+    ]
+  ],
+  "_from": "@angular/router@>=4.2.0 <4.3.0",
+  "_id": "@angular/router@4.2.6",
+  "_inCache": true,
+  "_location": "/@angular/router",
+  "_nodeVersion": "6.9.5",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/router-4.2.6.tgz_1499490120254_0.9106950685381889"
+  },
+  "_npmUser": {
+    "name": "angular",
+    "email": "angular-core+npm@google.com"
+  },
+  "_npmVersion": "3.10.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@angular/router@~4.2.0",
+    "scope": "@angular",
+    "escapedName": "@angular%2frouter",
+    "name": "@angular/router",
+    "rawSpec": "~4.2.0",
+    "spec": ">=4.2.0 <4.3.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/tns-template-hello-world-ng"
+  ],
+  "_resolved": "https://registry.npmjs.org/@angular/router/-/router-4.2.6.tgz",
+  "_shasum": "a6919d9b61c45ffc15fbee593398e3fd532dab46",
+  "_shrinkwrap": null,
+  "_spec": "@angular/router@~4.2.0",
+  "_where": "/Users/progressuser/git/ns-dev-days/template-hello-world-ng/node_modules/tns-template-hello-world-ng",
+  "author": {
+    "name": "angular"
+  },
+  "bugs": {
+    "url": "https://github.com/angular/angular/issues"
+  },
+  "dependencies": {
+    "tslib": "^1.7.1"
+  },
+  "description": "Angular - the routing library",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "a6919d9b61c45ffc15fbee593398e3fd532dab46",
+    "tarball": "https://registry.npmjs.org/@angular/router/-/router-4.2.6.tgz"
+  },
+  "es2015": "./@angular/router.js",
+  "homepage": "https://github.com/angular/angular/blob/master/modules/%40angular/router/README.md",
+  "keywords": [
+    "angular",
+    "router"
+  ],
+  "license": "MIT",
+  "main": "./bundles/router.umd.js",
+  "maintainers": [
+    {
+      "name": "angular",
+      "email": "angular-core+npm@google.com"
+    }
+  ],
+  "module": "./@angular/router.es5.js",
+  "name": "@angular/router",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "@angular/core": "4.2.6",
+    "@angular/common": "4.2.6",
+    "@angular/platform-browser": "4.2.6",
+    "rxjs": "^5.0.1"
+  },
+  "readme": "Angular\n=======\n\nThe sources for this package are in the main [Angular](https://github.com/angular/angular) repo. Please file issues and pull requests against that repo.\n\nLicense: MIT\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angular/angular.git"
+  },
+  "scripts": {},
+  "typings": "./router.d.ts",
+  "version": "4.2.6"
+}
