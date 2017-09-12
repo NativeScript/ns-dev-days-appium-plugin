@@ -1,5 +1,6 @@
 
 node_modules
+platfroms
 *-result.xml
 *.map
 *.js
