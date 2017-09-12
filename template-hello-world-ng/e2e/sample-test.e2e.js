@@ -68,7 +68,7 @@ describe("scenario simple", function () {
                     return [4 /*yield*/, masipPlayer.tap()];
                 case 5:
                     _f.sent();
-                    return [4 /*yield*/, driver.compareScreen("massipPlayerDetails.png", 10, 0.1)];
+                    return [4 /*yield*/, driver.compareScreen("massipPlayerDetails.png", 10, 0.2)];
                 case 6:
                     isDisplayMessageCorrect = _f.sent();
                     chai_1.assert.isTrue(isDisplayMessageCorrect, "Look at massipPlayerDetails.png");
