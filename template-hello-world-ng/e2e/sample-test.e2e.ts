@@ -1,4 +1,4 @@
-import { AppiumDriver, createDriver, SearchOptions, SwipeDirection } from "nativescript-dev-appium";
+import { AppiumDriver, createDriver, SearchOptions, Direction } from "nativescript-dev-appium";
 import { assert } from "chai";
 
 describe("scenario simple", () => {
@@ -22,24 +22,24 @@ describe("scenario simple", () => {
         await driver.navBack();
     });
 
-    it("should find an element by text", async () => {
-        const terStegenPlayer = await driver.findElementByText("A. Iniesta");
-        const masipPlayer = await driver.scrollToElement(SwipeDirection.down,
-            () => driver.findElementByText("Masip", SearchOptions.contains),
-            await terStegenPlayer.location(),
-            400);
+    it("scroll to last player and verify details", async () => {
+        const listView = await driver.findElementByClassName(driver.locators.listView);
+        const masipPlayer = await listView.scrollToElement(
+            Direction.down,
+            () => driver.findElementByText("Masip", SearchOptions.contains));
         await masipPlayer.tap();
-        const isDisplayMessageCorrect = await driver.compareScreen("massipPlayerDetails.png", 10, 0.2);
-        assert.isTrue(isDisplayMessageCorrect, "Look at massipPlayerDetails.png");
+        const isDisplayMessageCorrect = await driver.compareScreen("masipPlayerDetails.png", 10, 0.4);
+        assert.isTrue(isDisplayMessageCorrect, "Look at masipPlayerDetails.png");
     });
 
     it("should find an element by type", async () => {
-        const mascherano = await driver.findElementByText("Jordi Alba");
+        const listView = await driver.findElementByClassName(driver.locators.listView);
+        
         const terStegen = "Ter Stegen";
-        const terStegenPlayer = await driver.scrollToElement(SwipeDirection.up,
-            () => driver.findElementByText(terStegen),
-            await mascherano.location(),
-            400);
+        const terStegenPlayer = await listView.scrollToElement(
+            Direction.up,
+            () => driver.findElementByText(terStegen, SearchOptions.contains));
+
         await terStegenPlayer.tap();
         const label = await driver.findElementByText(terStegen);
         assert.isTrue(await label.isDisplayed());
