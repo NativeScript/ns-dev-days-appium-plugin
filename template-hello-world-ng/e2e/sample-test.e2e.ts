@@ -28,7 +28,6 @@ describe("scenario simple", () => {
             () => driver.findElementByText("Masip", SearchOptions.contains),
             await terStegenPlayer.location(),
             400);
-            console.log(await masipPlayer.isDisplayed());
         await masipPlayer.tap();
         const isDisplayMessageCorrect = await driver.compareScreen("massipPlayerDetails.png", 10, 0.2);
         assert.isTrue(isDisplayMessageCorrect, "Look at massipPlayerDetails.png");

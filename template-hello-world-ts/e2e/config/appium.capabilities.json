@@ -62,8 +62,8 @@
     "android26": {
         "platformName": "Android",
         "platformVersion": "8.0",
-        "deviceName": "Emulator-Api26-Google",
-        "avd": "Emulator-Api26-Google",
+        "deviceName": "Emulator_Api26_Google",
+        "avd": "Emulator_Api26_Google",
         "lt": 60000,
         "appActivity": "com.tns.NativeScriptActivity",
         "newCommandTimeout": 720,
