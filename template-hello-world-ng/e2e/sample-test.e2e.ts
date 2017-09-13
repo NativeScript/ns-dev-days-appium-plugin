@@ -22,26 +22,28 @@ describe("scenario simple", () => {
         await driver.navBack();
     });
 
-    it("scroll to last player and verify details", async () => {
-        const listView = await driver.findElementByClassName(driver.locators.listView);
-        const masipPlayer = await listView.scrollToElement(
-            Direction.down,
-            () => driver.findElementByText("Masip", SearchOptions.contains));
+    it("swipe to last player and verify details", async () => {
+        await driver.swipe(500, 20, 150);
+        await driver.swipe(500, 20, 150);
+        await driver.swipe(500, 20, 150);
+        await driver.swipe(500, 20, 150);
+        await driver.swipe(500, 20, 150);
+        const masipPlayer = await driver.findElementByText("Masip", SearchOptions.contains);
         await masipPlayer.tap();
-        const isDisplayMessageCorrect = await driver.compareScreen("masipPlayerDetails.png", 10, 0.4);
-        assert.isTrue(isDisplayMessageCorrect, "Look at masipPlayerDetails.png");
+        const isDisplayInformationCorrect = await driver.compareScreen("masipPlayerDetails.png", 10, 0.4);
+        assert.isTrue(isDisplayInformationCorrect, "Look at masipPlayerDetails.png");
     });
 
     it("should find an element by type", async () => {
         const listView = await driver.findElementByClassName(driver.locators.listView);
-        
+
         const terStegen = "Ter Stegen";
         const terStegenPlayer = await listView.scrollToElement(
             Direction.up,
             () => driver.findElementByText(terStegen, SearchOptions.contains));
 
         await terStegenPlayer.tap();
-        const label = await driver.findElementByText(terStegen);
-        assert.isTrue(await label.isDisplayed());
+        const info = await driver.findElementByText(terStegen);
+        assert.isTrue(await info.isDisplayed());
     });
 });
