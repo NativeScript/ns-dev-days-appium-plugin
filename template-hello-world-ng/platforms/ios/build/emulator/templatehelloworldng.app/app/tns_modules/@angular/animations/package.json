@@ -1,0 +1,89 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@angular/animations@~4.2.5",
+        "scope": "@angular",
+        "escapedName": "@angular%2fanimations",
+        "name": "@angular/animations",
+        "rawSpec": "~4.2.5",
+        "spec": ">=4.2.5 <4.3.0",
+        "type": "range"
+      },
+      "/Users/progressuser/git/ns-dev-days-appium-plugin/template-hello-world-ng"
+    ]
+  ],
+  "_from": "@angular/animations@>=4.2.5 <4.3.0",
+  "_id": "@angular/animations@4.2.6",
+  "_inCache": true,
+  "_location": "/@angular/animations",
+  "_nodeVersion": "6.9.5",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/animations-4.2.6.tgz_1499490081294_0.6715436938684434"
+  },
+  "_npmUser": {
+    "name": "angular",
+    "email": "angular-core+npm@google.com"
+  },
+  "_npmVersion": "3.10.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@angular/animations@~4.2.5",
+    "scope": "@angular",
+    "escapedName": "@angular%2fanimations",
+    "name": "@angular/animations",
+    "rawSpec": "~4.2.5",
+    "spec": ">=4.2.5 <4.3.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@angular/animations/-/animations-4.2.6.tgz",
+  "_shasum": "9d9c80a119b0c03693cbd23bbaf728b1531fffc7",
+  "_shrinkwrap": null,
+  "_spec": "@angular/animations@~4.2.5",
+  "_where": "/Users/progressuser/git/ns-dev-days-appium-plugin/template-hello-world-ng",
+  "author": {
+    "name": "angular"
+  },
+  "bugs": {
+    "url": "https://github.com/angular/angular/issues"
+  },
+  "dependencies": {
+    "tslib": "^1.7.1"
+  },
+  "description": "Angular - animations integration with web-animationss",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "9d9c80a119b0c03693cbd23bbaf728b1531fffc7",
+    "tarball": "https://registry.npmjs.org/@angular/animations/-/animations-4.2.6.tgz"
+  },
+  "es2015": "./@angular/animations.js",
+  "homepage": "https://github.com/angular/angular#readme",
+  "license": "MIT",
+  "main": "./bundles/animations.umd.js",
+  "maintainers": [
+    {
+      "name": "angular",
+      "email": "angular-core+npm@google.com"
+    }
+  ],
+  "module": "./@angular/animations.es5.js",
+  "name": "@angular/animations",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "@angular/core": "4.2.6"
+  },
+  "readme": "Angular\n=======\n\nThe sources for this package are in the main [Angular](https://github.com/angular/angular) repo. Please file issues and pull requests against that repo.\n\nLicense: MIT\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angular/angular.git"
+  },
+  "scripts": {},
+  "typings": "./animations.d.ts",
+  "version": "4.2.6"
+}
