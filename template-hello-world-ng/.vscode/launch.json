@@ -25,16 +25,16 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "android25",
+            "name": "android24",
             "program": "${workspaceRoot}/node_modules/mocha/bin/_mocha",
             "args": [
                 "-u",
                 "tdd",
                 "--timeout",
                 "999999",
-                "--colors",
+                "--colors"              
                 "--runType",
-                "android25",
+                "android24",
                 "${workspaceRoot}/e2e"
             ],
             "internalConsoleOptions": "openOnSessionStart"

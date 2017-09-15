@@ -1,2 +1,2 @@
---timeout 80000
+--timeout 380000
 --recursive e2e

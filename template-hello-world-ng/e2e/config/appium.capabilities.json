@@ -43,8 +43,8 @@
         "lt": 60000,
         "appActivity": "com.tns.NativeScriptActivity",
         "newCommandTimeout": 720,
-        "noReset": false,
-        "fullReset": true,
+        "noReset": true,
+        "fullReset": false,
         "app": ""
     },
     "android25": {
