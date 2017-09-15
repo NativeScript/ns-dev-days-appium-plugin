@@ -29,7 +29,10 @@ describe("scenario simple", () => {
         await driver.swipe(500, 20, 150);
         await driver.swipe(500, 20, 150);
         const masipPlayer = await driver.findElementByText("Masip", SearchOptions.contains);
+        const umtitiPLayer = await driver.findElementByText("Umtiti", SearchOptions.exact);
         await masipPlayer.tap();
+        await umtitiPLayer.waitForExistNot(2);
+
         const isDisplayInformationCorrect = await driver.compareScreen("masipPlayerDetails.png", 10, 0.4);
         assert.isTrue(isDisplayInformationCorrect, "Look at masipPlayerDetails.png");
     });
@@ -42,8 +45,11 @@ describe("scenario simple", () => {
             Direction.up,
             () => driver.findElementByText(terStegen, SearchOptions.contains));
 
+        const sergionPlayer = await driver.findElementByText("Sergio", SearchOptions.contains);
         await terStegenPlayer.tap();
-        const info = await driver.findElementByText(terStegen);
-        assert.isTrue(await info.isDisplayed());
+        sergionPlayer.waitForExistNot(2);
+
+        const terStegenInfo = await driver.findElementByText(terStegen);
+        assert.isTrue(await terStegenInfo.isDisplayed());
     });
 });
