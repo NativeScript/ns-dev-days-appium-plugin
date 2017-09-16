@@ -2,7 +2,6 @@ import { AppiumDriver, createDriver, SearchOptions, Direction } from "nativescri
 import { assert } from "chai";
 
 describe("scenario simple", () => {
-    const defaultWaitTime = 5000;
     let driver: AppiumDriver;
 
     before(async () => {
@@ -33,7 +32,7 @@ describe("scenario simple", () => {
         await masipPlayer.tap();
         await umtitiPLayer.waitForExistNot(2);
 
-        const isDisplayInformationCorrect = await driver.compareScreen("masipPlayerDetails.png", 10, 0.4);
+        const isDisplayInformationCorrect = await driver.compareScreen("masipPlayerDetails.png", 10, 0.01);
         assert.isTrue(isDisplayInformationCorrect, "Look at masipPlayerDetails.png");
     });
 
@@ -41,12 +40,12 @@ describe("scenario simple", () => {
         const listView = await driver.findElementByClassName(driver.locators.listView);
 
         const terStegen = "Ter Stegen";
-        const terStegenPlayer = await listView.scrollToElement(
+        const terStegenPlayer = await listView.scrollTo(
             Direction.up,
             () => driver.findElementByText(terStegen, SearchOptions.contains));
 
         const sergionPlayer = await driver.findElementByText("Sergio", SearchOptions.contains);
-        await terStegenPlayer.tap();
+        await terStegenPlayer.tap(); 
         sergionPlayer.waitForExistNot(2);
 
         const terStegenInfo = await driver.findElementByText(terStegen);
