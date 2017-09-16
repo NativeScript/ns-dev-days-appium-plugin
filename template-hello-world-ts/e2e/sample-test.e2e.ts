@@ -30,10 +30,10 @@ describe("scenario simple", () => {
     });
 
     it("should find an element by type", async () => {
-        const tapButton = (await driver.findElementsByClassName("button"))[0];
+        const tapButton = await driver.findElementByClassName(driver.locators.button);
         await tapButton.tap();
         const messageLabel = await driver.findElementByText("40 taps left", SearchOptions.contains);
         const isDisplayMessageCorrect = await driver.compareScreen("hello-world-display.png", 10, 1.0);
         assert.isTrue(isDisplayMessageCorrect, "Look at hello-world-display-diif.png");
     });
-});
+}); 
