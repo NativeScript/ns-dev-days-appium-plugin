@@ -16,12 +16,12 @@ describe("scenario simple", () => {
 
     afterEach(async function () {
         if (this.currentTest.state === "failed") {
-            await driver.logScreenshoot(this.currentTest.title);
+            await driver.logScreenshot(this.currentTest.title);
         }
     });
 
     it("should find an element by text", async () => {
-        // case insesitive search by text for android
+        // case insesitive search by text for android 
         const tapButton = await driver.findElementByText("TAP");
         await tapButton.click();
         const displayMsg = "41 taps left";

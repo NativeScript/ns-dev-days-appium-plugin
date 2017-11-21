@@ -14,7 +14,8 @@
                 "--colors",
                 "--runType",
                 "android24",
-                "${workspaceRoot}/e2e"
+                "${workspaceRoot}/e2e",
+                "-v"
             ],
             "internalConsoleOptions": "openOnSessionStart"
         }

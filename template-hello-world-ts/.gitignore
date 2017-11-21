@@ -1,7 +1,10 @@
-hook
+hooks
 node_modules
 platforms
 e2e/reports
 *-result.xml
-*/**.*.map
-*/**.*.js
+*.*.map
+*.*.js
+instruments*
+test-results.xml
+package-lock.json

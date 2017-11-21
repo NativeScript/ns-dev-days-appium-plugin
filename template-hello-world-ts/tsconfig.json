@@ -21,6 +21,7 @@
     "exclude": [
         "node_modules",
         "platforms",
-        "**/*.aot.ts"
+        "**/*.aot.ts",
+        "e2e"
     ]
 }

@@ -29,10 +29,10 @@
     "mocha": "~3.5.0",
     "mocha-junit-reporter": "^1.13.0",
     "mocha-multi": "^0.11.0",
-    "nativescript-dev-appium": "file:///Users/progressuser/git/nativescript-dev-appium/nativescript-dev-appium-2.1.1.tgz",
+    "nativescript-dev-appium": "next",
     "nativescript-dev-typescript": "~0.5.0",
     "tslib": "^1.7.1",
-    "typescript": "~2.2.1"
+    "typescript": "~2.4.1"
   },
   "scripts": {
     "e2e": "tsc -p e2e && mocha --opts ./e2e/config/mocha.opts",
