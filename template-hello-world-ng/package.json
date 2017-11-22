@@ -46,13 +46,12 @@
     "mocha-junit-reporter": "^1.13.0",
     "mocha-multi": "^0.11.0",
     "nativescript-css-loader": "~0.26.0",
-    "nativescript-dev-appium": "file:///Users/progressuser/git/nativescript-dev-appium/nativescript-dev-appium-2.1.1.tgz",
+    "nativescript-dev-appium": "next",
     "nativescript-dev-typescript": "~0.5.0",
     "nativescript-dev-webpack": "^0.9.0-2017-9-8-2",
     "nativescript-worker-loader": "~0.8.1",
     "raw-loader": "~0.5.1",
     "resolve-url-loader": "~2.1.0",
-    "tslib": "^1.7.1",
     "typescript": "~2.3.4",
     "webpack": "~3.2.0",
     "webpack-bundle-analyzer": "^2.8.2",
@@ -62,11 +61,11 @@
     "e2e": "tsc -p e2e && mocha --opts ./e2e/config/mocha.opts",
     "compile-tests": "tsc -p e2e --watch",
     "ns-bundle": "ns-bundle",
+    "publish-ios-bundle": "npm run ns-bundle --ios --publish-app",
+    "generate-android-snapshot": "generate-android-snapshot --targetArchs arm,arm64,ia32 --install",
     "start-android-bundle": "npm run ns-bundle --android --run-app",
     "start-ios-bundle": "npm run ns-bundle --ios --run-app",
     "build-android-bundle": "npm run ns-bundle --android --build-app",
-    "build-ios-bundle": "npm run ns-bundle --ios --build-app",
-    "publish-ios-bundle": "npm run ns-bundle --ios --publish-app",
-    "generate-android-snapshot": "generate-android-snapshot --targetArchs arm,arm64,ia32 --install"
+    "build-ios-bundle": "npm run ns-bundle --ios --build-app"
   }
 }

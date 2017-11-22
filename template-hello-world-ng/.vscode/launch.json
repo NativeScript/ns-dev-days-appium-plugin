@@ -17,8 +17,9 @@
                 "999999",
                 "--colors",
                 "--runType",
-                "sim.iPhone7.iOS110",
-                "${workspaceRoot}/e2e"
+                "sim.iPhoneX",
+                "${workspaceRoot}/e2e",
+                "--reuseDevice"
             ],
             "internalConsoleOptions": "openOnSessionStart"
         },
@@ -32,7 +33,7 @@
                 "tdd",
                 "--timeout",
                 "999999",
-                "--colors"              
+                "--colors",              
                 "--runType",
                 "android24",
                 "${workspaceRoot}/e2e"
