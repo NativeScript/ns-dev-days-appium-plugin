@@ -102,5 +102,13 @@
         "noReset": true,
         "fullReset": false,
         "app": ""
+    },
+    "iPhone.device": {
+        "xcodeConfigFile": "/Users/tsenov/git/ns-dev-days-appium-plugin/template-hello-world-ts/e2e/config/xcode.config",
+        "showXcodeLog":true,
+        "platformName": "iOS",
+        "platformVersion": "11.0",
+        "deviceName": "BuildUser’s iPhone",
+        "udid": "b2365713167146c9fcf4f86a2ebca88c00340a3e"
     }
 }

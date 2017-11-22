@@ -14,8 +14,30 @@
                 "--colors",
                 "--runType",
                 "android24",
+                
                 "${workspaceRoot}/e2e",
-                "-v"
+                "-v",
+                "i-ns-device-controller"
+            ],
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "iPhone",
+            "program": "${workspaceRoot}/node_modules/mocha/bin/_mocha",
+            "args": [
+                "-u",
+                "tdd",
+                "--timeout",
+                "999999",
+                "--colors",
+                "--runType",
+                "iPhone.device",
+                
+                "${workspaceRoot}/e2e",
+                "-v",
+                "i-ns-device-controller"
             ],
             "internalConsoleOptions": "openOnSessionStart"
         }
