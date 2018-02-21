@@ -1,11 +1,17 @@
 import { AppiumDriver, createDriver, SearchOptions, Direction } from "nativescript-dev-appium";
 import { assert } from "chai";
+import { HomeScreen } from "./home-screen";
+import { DetailsPage } from "./details-page";
 
 describe("scenario simple", () => {
-    let driver: AppiumDriver;
+    let driver: AppiumDriver,
+        homeScreen: HomeScreen,
+        detailsPage: DetailsPage;
 
     before(async () => {
         driver = await createDriver();
+        homeScreen = new HomeScreen(driver);
+        detailsPage = new DetailsPage(driver);
     });
 
     after(async () => {
@@ -37,18 +43,15 @@ describe("scenario simple", () => {
     });
 
     it("should find an element by type", async () => {
-        const listView = await driver.findElementByClassName(driver.locators.listView);
-
         const terStegen = "Ter Stegen";
-        const terStegenPlayer = await listView.scrollTo(
-            Direction.up,
-            () => driver.findElementByText(terStegen, SearchOptions.contains));
+        const terStegenPlayer = await homeScreen.findPlayer(terStegen);
 
-        const sergionPlayer = await driver.findElementByText("Sergio", SearchOptions.contains);
-        await terStegenPlayer.tap(); 
+        const sergio = "Sergio";
+        const sergionPlayer = await homeScreen.findPlayer(sergio, Direction.down, SearchOptions.contains);
+
+        await terStegenPlayer.tap();
         sergionPlayer.waitForExistNot(2);
 
-        const terStegenInfo = await driver.findElementByText(terStegen);
-        assert.isTrue(await terStegenInfo.isDisplayed());
+        await detailsPage.assertPlayerNameIsDisplayed(terStegen);
     });
 });
