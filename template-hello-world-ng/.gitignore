@@ -1,11 +1,5 @@
+hooks
 node_modules
 platforms
-*-results.xml
-e2e/reports
-node_modules
-*.tgz
-**/**/*.js
-*.js
-**/**/*.map
-report.html
-instruments*
+package-lock.json
+
