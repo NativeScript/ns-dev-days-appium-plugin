@@ -1,8 +1,6 @@
 import { AppiumDriver, Direction, SearchOptions } from "nativescript-dev-appium";
 import { assert } from "chai";
 
-export const masip = "Masip";
-const umtiti = "Umtiti";
 const title = "My App";
 
 export class Home {
@@ -26,8 +24,8 @@ export class Home {
         return player;
     }
 
-    tapOnPlayerMasip = async () => {
-        const playerMasip = await this.findPlayer(masip);
-        await playerMasip.tap();
+    tapOnPlayer = async (playerName: string) => {
+        const player = await this.findPlayer(playerName);
+        await player.tap();
     }
 }

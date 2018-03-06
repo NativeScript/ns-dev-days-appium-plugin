@@ -2,6 +2,7 @@ import { AppiumDriver, createDriver, SearchOptions, Direction } from "nativescri
 import { assert } from "chai";
 import { Home } from "./home";
 import { Details } from "./details";
+import { Players } from "./players";
 
 describe("template-hello-world-ng scenario", () => {
     let driver: AppiumDriver,
@@ -28,10 +29,10 @@ describe("template-hello-world-ng scenario", () => {
 
     it("should swipe to the last player and verify his details", async () => {
         await home.loaded();
-        await home.tapOnPlayerMasip();
+        await home.tapOnPlayer(Players.masip);
 
         await details.loaded();
-        await details.assertPlayerMasipIsDisplayed();
-        await details.assertPlayerMasipScreen();
+        await details.assertPlayerIsDisplayed(Players.masip);
+        await details.assertPlayerMasipScreen("masipPlayerDetails");
     });
 });
