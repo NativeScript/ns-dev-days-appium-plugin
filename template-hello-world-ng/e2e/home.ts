@@ -1,4 +1,5 @@
 import { AppiumDriver, Direction, SearchOptions } from "nativescript-dev-appium";
+import { Players } from "./players";
 import { assert } from "chai";
 
 const title = "My App";
@@ -17,14 +18,14 @@ export class Home {
         console.log(title + " loaded!");
     }
 
-    findPlayer = async (playerName: string, scrollDirection: Direction = Direction.down, searchOptions: SearchOptions = SearchOptions.contains) => {
+    findPlayer = async (playerName: Players, scrollDirection: Direction = Direction.down, searchOptions: SearchOptions = SearchOptions.contains) => {
         const player = await (await this.players).scrollTo(
             scrollDirection,
             () => this._driver.findElementByText(playerName, searchOptions));
         return player;
     }
 
-    tapOnPlayer = async (playerName: string) => {
+    tapOnPlayer = async (playerName: Players) => {
         const player = await this.findPlayer(playerName);
         await player.tap();
     }

@@ -33,6 +33,6 @@ describe("template-hello-world-ng scenario", () => {
 
         await details.loaded();
         await details.assertPlayerIsDisplayed(Players.masip);
-        await details.assertPlayerMasipScreen("masipPlayerDetails");
+        await details.assertPlayerScreen(Players.masip);
     });
 });
