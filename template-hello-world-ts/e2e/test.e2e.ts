@@ -1,4 +1,5 @@
 import { AppiumDriver, createDriver, SearchOptions } from "nativescript-dev-appium";
+import { ImageOptions } from "nativescript-dev-appium/lib/image-options";
 import { assert } from "chai";
 
 describe("scenario simple", () => {
@@ -33,7 +34,7 @@ describe("scenario simple", () => {
         const tapButton = await driver.findElementByClassName(driver.locators.button);
         await tapButton.tap();
         const messageLabel = await driver.findElementByText("40 taps left", SearchOptions.contains);
-        const isDisplayMessageCorrect = await driver.compareScreen("hello-world-display.png", 10, 1.0);
+        const isDisplayMessageCorrect = await driver.compareScreen("hello-world-display.png", 3, 10, ImageOptions.pixel);
         assert.isTrue(isDisplayMessageCorrect, "Look at hello-world-display-diif.png");
     });
 }); 

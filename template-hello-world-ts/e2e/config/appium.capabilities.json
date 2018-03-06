@@ -7,8 +7,8 @@
         "lt": 60000,
         "appActivity": "com.tns.NativeScriptActivity",
         "newCommandTimeout": 720,
-        "noReset": false,
-        "fullReset": true,
+        "noReset": true,
+        "fullReset": false,
         "app": ""
     },
     "android21": {
@@ -19,8 +19,8 @@
         "lt": 60000,
         "appActivity": "com.tns.NativeScriptActivity",
         "newCommandTimeout": 720,
-        "noReset": false,
-        "fullReset": true,
+        "noReset": true,
+        "fullReset": false,
         "app": ""
     },
     "android23": {
@@ -31,8 +31,8 @@
         "lt": 60000,
         "appActivity": "com.tns.NativeScriptActivity",
         "newCommandTimeout": 720,
-        "noReset": false,
-        "fullReset": true,
+        "noReset": true,
+        "fullReset": false,
         "app": ""
     },
     "android24": {
@@ -43,8 +43,8 @@
         "lt": 60000,
         "appActivity": "com.tns.NativeScriptActivity",
         "newCommandTimeout": 720,
-        "noReset": false,
-        "fullReset": true,
+        "noReset": true,
+        "fullReset": false,
         "app": ""
     },
     "android25": {
@@ -55,26 +55,38 @@
         "lt": 60000,
         "appActivity": "com.tns.NativeScriptActivity",
         "newCommandTimeout": 720,
-        "noReset": false,
-        "fullReset": true,
+        "noReset": true,
+        "fullReset": false,
         "app": ""
     },
     "android26": {
         "platformName": "Android",
         "platformVersion": "8.0",
-        "deviceName": "Emulator_Api26_Google",
-        "avd": "Emulator_Api26_Google",
+        "deviceName": "Emulator-Api26-Google",
+        "avd": "Emulator-Api26-Google",
         "lt": 60000,
         "appActivity": "com.tns.NativeScriptActivity",
         "newCommandTimeout": 720,
-        "noReset": false,
-        "fullReset": true,
+        "noReset": true,
+        "fullReset": false,
         "app": ""
     },
-    "sim.iPhone7.iOS100": {
+    "android27": {
+        "platformName": "Android",
+        "platformVersion": "8.1",
+        "deviceName": "Emulator-Api27-Google",
+        "avd": "Emulator-Api27-Google",
+        "lt": 60000,
+        "appActivity": "com.tns.NativeScriptActivity",
+        "newCommandTimeout": 720,
+        "noReset": true,
+        "fullReset": false,
+        "app": ""
+    },
+    "sim.iPhone7.iOS110": {
         "platformName": "iOS",
-        "platformVersion": "10.0",
-        "deviceName": "iPhone 7 100",
+        "platformVersion": "11.2",
+        "deviceName": "iPhone 7 110",
         "noReset": true,
         "fullReset": false,
         "app": ""
@@ -82,33 +94,25 @@
     "sim.iPhone8.iOS110": {
         "platformName": "iOS",
         "platformVersion": "11.0",
-        "deviceName": "iPhone 7 110",
+        "deviceName": "iPhone 8 110",
         "noReset": true,
         "fullReset": false,
         "app": ""
     },
     "sim.iPhoneX.iOS110": {
         "platformName": "iOS",
-        "platformVersion": "11.1",
+        "platformVersion": "11.0",
         "deviceName": "iPhone X",
         "noReset": true,
         "fullReset": false,
         "app": ""
     },
-    "sim.iPadAir2.iOS110": {
+    "sim.iPhoneX.iOS112": {
         "platformName": "iOS",
-        "platformVersion": "11.1",
-        "deviceName": "iPad Air 2",
+        "platformVersion": "11.2",
+        "deviceName": "iPhone X",
         "noReset": true,
         "fullReset": false,
         "app": ""
-    },
-    "iPhone.device": {
-        "xcodeConfigFile": "/Users/tsenov/git/ns-dev-days-appium-plugin/template-hello-world-ts/e2e/config/xcode.config",
-        "showXcodeLog":true,
-        "platformName": "iOS",
-        "platformVersion": "11.0",
-        "deviceName": "BuildUser’s iPhone",
-        "udid": "b2365713167146c9fcf4f86a2ebca88c00340a3e"
     }
 }
