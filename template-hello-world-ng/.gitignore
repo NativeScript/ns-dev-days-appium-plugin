@@ -1,5 +1,13 @@
+.DS_Store
+
 hooks
 node_modules
 platforms
+
+*.js
+*.map
+
+e2e/reports
+
 package-lock.json
 
