@@ -4,21 +4,20 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-
         {
             "type": "node",
             "request": "launch",
             "name": "iOS110",
             "program": "${workspaceRoot}/node_modules/mocha/bin/_mocha",
             "args": [
+                "${workspaceRoot}/e2e",
                 "-u",
                 "tdd",
                 "--timeout",
                 "999999",
                 "--colors",
                 "--runType",
-                "sim.iPhoneX",
-                "${workspaceRoot}/e2e",
+                "sim.iPhoneX.iOS110",
                 "--reuseDevice"
             ],
             "internalConsoleOptions": "openOnSessionStart"
@@ -26,17 +25,18 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "android24",
+            "name": "android23",
             "program": "${workspaceRoot}/node_modules/mocha/bin/_mocha",
             "args": [
+                "${workspaceRoot}/e2e",
                 "-u",
                 "tdd",
                 "--timeout",
                 "999999",
-                "--colors",              
+                "--colors",
                 "--runType",
-                "android24",
-                "${workspaceRoot}/e2e"
+                "android23",
+                "--reuseDevice"
             ],
             "internalConsoleOptions": "openOnSessionStart"
         }
